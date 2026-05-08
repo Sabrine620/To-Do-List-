@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.APP {
+  border: solid 2px rgb(15, 6, 199);
+  height: 400px;
+  width: 70%;
+  margin: 10px auto;
+  background-color: rgb(15, 15, 15);
+  color: white;
+  border-radius: 10px;
+}
+.Title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.form-container input {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.btn-add {
+  background-color: rgb(15, 6, 199);
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.TaskList,
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.Tasks {
+  display: flex;
+  justify-content: space-between;
+  border: solid 2px white;
+  height: 30px;
+  width: 80%;
+  border-radius: 5px;
+  margin: 5px auto;
+  align-items: center;
+}
+.delete,
+.edit,
+.save {
+  background-color: black;
+  color: red;
+  border: none;
+  cursor: pointer;
+}
+.footer {
+  border-top: solid 3px blue;
+  margin-top: 100px;
+  text-align: center;
+}
